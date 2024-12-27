@@ -216,4 +216,4 @@ def sendConfirm(event):
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()  # Create all defined tables
-    app.run()
+    app.run(debug=True)
