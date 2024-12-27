@@ -10,7 +10,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Database configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://admin:123456@127.0.0.1:5432/milk5'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://linetestcloud:UtEvi79s9kQjP87KR1Su2QolkbUCvSBo@dpg-ctn391btq21c73fddf1g-a.singapore-postgres.render.com/linetestcloud'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize database
